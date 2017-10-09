@@ -6,5 +6,13 @@ import { Component } from '@angular/core'
 })
 
 export class ContactsComponent {
-	title:string = 'contacts works!'
-}
+	names: Array<string> = [
+		'John',
+		'Joan',
+		'Michael',
+		'Pera'
+
+	];
+
+	isVisible:boolean = true;
+}	
