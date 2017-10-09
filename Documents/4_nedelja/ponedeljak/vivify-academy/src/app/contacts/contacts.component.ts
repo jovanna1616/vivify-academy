@@ -6,13 +6,8 @@ import { Component } from '@angular/core'
 })
 
 export class ContactsComponent {
-	names: Array<string> = [
-		'John',
-		'Joan',
-		'Michael',
-		'Pera'
-
-	];
+	
+	link:string = 'https://angular.io/tutorial'
 
 	isVisible:boolean = true;
 }	
